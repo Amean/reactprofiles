@@ -1,21 +1,8 @@
+import Gallery from './Gallery.js';
 
-
-function Profile() {
+export default function App() {
   return (
-    <img
-      src="https://i.imgur.com/MK3eW3As.jpeg"
-      alt="Latherine Johnson"
-    />
+    <Gallery />
   );
 }
 
-export default function Gallery() {
-  return (
-    <section>
-      <h1>Amazing Scientists</h1>
-      <Profile />
-      <Profile />
-      <Profile />
-    </section>
-  );
-}
